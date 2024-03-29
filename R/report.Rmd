@@ -1,0 +1,17 @@
+---
+title: "Results From Example App"
+output: html_document
+params:
+  variability_plot: NA
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## Sources of Variability Plot
+
+```{r}
+params$variability_plot
+```
