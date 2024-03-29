@@ -1,4 +1,4 @@
-This reop contains a minimial working example of a containerized R Shiny application. The application demonstrates the following workflow:
+This repo contains a minimial working example of a containerized R Shiny application. The application demonstrates the following workflow:
  * User uploads dataset
  * Dataset is validated
  * Linear mixed model is fit using the data
