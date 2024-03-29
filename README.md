@@ -1,3 +1,5 @@
+## Example Containerized Statistical Modeling App in R Shiny
+
 This repo is intended to demonstrate the following concepts:
  1. A statistical R shiny application with fundamental concepts (data upload, data validation, modeling, plot generation, report download)
  2. An example of isolation/modularity between backend logic and front end reactivity
