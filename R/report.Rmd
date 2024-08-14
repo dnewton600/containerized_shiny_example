@@ -1,6 +1,6 @@
 ---
 title: "Results From Example App"
-output: html_document
+output: pdf_document
 params:
   variability_plot: NA
 ---

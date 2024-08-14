@@ -142,7 +142,7 @@ server <- function(input, output) {
     })
       
     output$download_report <- downloadHandler(
-      filename = "Results_from_example_app.html",
+      filename = "Results_from_example_app.pdf",
       content = function(file) {
         # Write the dataset to the `file` that will be downloaded
         
@@ -156,7 +156,7 @@ server <- function(input, output) {
                        
         })
         
-        file.copy('./R/report.html',file)
+        file.copy('./R/report.pdf',file)
         
       })
         
